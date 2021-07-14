@@ -134,6 +134,8 @@ p a, p a:visited {
 img.scale-with-grid, #Content img {
 	max-width: 100%;
 	height: auto;
+    background-image: linear-gradient(rgba(#000));
+
 }
 .google-map img {
 	max-width: none !important;
@@ -3135,7 +3137,7 @@ a.mfn-link {
 	white-space: nowrap
 }
 a:hover.mfn-link {
-	text-decoration: none
+	text-decoration: none;
 }
 /* Effect 1: Brackets */
 
@@ -3373,7 +3375,7 @@ a.mfn-link-7:after {
 	transform: rotate(90deg);
 	-webkit-transform-origin: 100% 0;
 	-moz-transform-origin: 100% 0;
-	transform-origin: 100% 0
+	transform-origin: 100% 0;
 }
 a:hover.mfn-link-7:before, a:hover.mfn-link-7:after, a.hover.mfn-link-7:before, a.hover.mfn-link-7:after {
 	opacity: 1
@@ -3388,7 +3390,8 @@ a:hover.mfn-link-7:after, a.hover.mfn-link-7:after {
 	right: 50%;
 	-webkit-transform: rotate(0deg) translateX(50%);
 	-moz-transform: rotate(0deg) translateX(50%);
-	transform: rotate(0deg) translateX(50%)
+	transform: rotate(0deg) translateX(50%);
+
 }
 /* Effect 8: cross */
 
@@ -5408,7 +5411,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 .trailer_box {
 	text-align: center;
 	position: relative;
-	line-height: 0
+	line-height: 0;
 }
 .trailer_box a {
 	display: block
